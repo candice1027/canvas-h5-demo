@@ -1,5 +1,7 @@
 *{margin: 0;padding:0;}
 canvas {
+    background: url(https://ws1.sinaimg.cn/large/7a23be02ly1fqkdnb4eojj20ps0eigoo.jpg) no-repeat center center ;
+    background-size: cover;
     position: fixed;
     top: 0;
     left: 0;

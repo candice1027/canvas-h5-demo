@@ -21,12 +21,12 @@
     window.onresize = function() {
         init();
     }
-    drawRect()
-    //画长方形
-    function drawRect() {
-        ctx.fillStyle = '#fff';
-        ctx.fillRect(0,0,canvas.width,canvas.height);
-    }
+    // drawRect()
+    // //画长方形
+    // function drawRect() {
+    //     ctx.fillStyle = '#fff';
+    //     ctx.fillRect(0,0,canvas.width,canvas.height);
+    // }
     //画线
     function drawLine(x,y) {
         ctx.beginPath();
@@ -60,15 +60,15 @@
         ctx.clearRect(0,0,canvas.width,canvas.height);
     }
     //保存
-    var saveBtn = document.getElementById('save-btn');
-    saveBtn.onclick = function() {
-        var url = canvas.toDataURL("image/png");
-        var a = document.createElement('a');
-           a.href = url;
-           a.download = '你画的图真美';
-           document.body.appendChild(a);
-           a.click();
-    }
+    // var saveBtn = document.getElementById('save-btn');
+    // saveBtn.onclick = function() {
+    //     var url = canvas.toDataURL("image/png");
+    //     var a = document.createElement('a');
+    //        a.href = url;
+    //        a.download = '你画的图真美';
+    //        document.body.appendChild(a);
+    //        a.click();
+    // }
     //改变颜色
     var blackColor = document.getElementById('black');
     var redColor = document.getElementById('red');
