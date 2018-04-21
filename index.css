@@ -18,7 +18,12 @@ li {
     top: 0;
     left: 10px;
 }
-#rubber > svg {
+#rubber2 {
+    position: fixed;
+    top: 0;
+    left: 80px;
+}
+#rubber > svg,#rubber2 svg{
     width: 3em;
     height: 3em;
     margin: 1em  2em 0 0;
