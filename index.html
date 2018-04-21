@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no,maximum-scale=1.0,minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的画板</title>
+    <script src="//at.alicdn.com/t/font_638096_ufconnsw7chumcxr.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <button id="rubber">
+        <svg id="pencil" class="icon active">
+            <use xlink:href="#icon-pencil"></use>  
+        </svg>
+        <svg id="eraser" class="icon">
+            <use xlink:href="#icon-eraser1"></use>
+        </svg>
+    </button>
+    <ol>
+        <li id="black" class="active"></li>
+        <li id="red"></li>
+        <li id="yellow"></li>
+        <li id="green"></li>
+    </ol>
+    <div id="clear-btn" class="clear">
+        <svg  class="icon">
+            <use xlink:href="#icon-qingpingxianxing"></use>
+        </svg>     
+    </div>
+    <div id="save-btn" class="save">
+        <svg  class="icon">
+            <use xlink:href="#icon-baocun"></use>
+        </svg>     
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
